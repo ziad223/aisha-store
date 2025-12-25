@@ -129,11 +129,17 @@ const MenuSection = () => {
                 
                 <button
                   onClick={() => setZoomLevel(100)}
-                  className="px-4 py-2 bg-white border border-[#ffd7c2] text-[#8b4513] rounded-full hover:bg-[#fff5e6] transition-colors text-sm font-medium"
+                  className="px-4 py-2 md:flex hidden bg-white border border-[#ffd7c2] text-[#8b4513] rounded-full hover:bg-[#fff5e6] transition-colors text-sm font-medium"
                 >
                   إعادة التعيين
                 </button>
               </div>
+               <button
+                  onClick={() => setZoomLevel(100)}
+                  className="px-4 py-2 flex md:hidden   items-center justify-center mt-5 bg-white border border-[#ffd7c2] text-[#8b4513] rounded-full hover:bg-[#fff5e6] transition-colors text-sm font-medium"
+                >
+                  إعادة التعيين
+                </button>
             </div>
 
             {/* أزرار التحكم */}

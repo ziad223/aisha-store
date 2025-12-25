@@ -102,12 +102,12 @@ const FloatingContact = () => {
               <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-3 h-3 bg-white rotate-45"></div>
             </div>
             
-            <button
+            {/* <button
               onClick={() => setIsVisible(false)}
               className="w-12 h-12 bg-gradient-to-br from-[#ff6b6b] to-[#ff8787] rounded-full shadow-xl flex items-center justify-center text-white hover:shadow-2xl hover:scale-110 transition-all duration-300 group-hover:rotate-12"
             >
               <FaChevronDown className="text-xl" />
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -124,16 +124,7 @@ const FloatingContact = () => {
         )}
       </div>
 
-      {/* زر إظهار عندما يكون مخفي */}
-      {!isVisible && (
-        <button
-          onClick={() => setIsVisible(true)}
-          className="fixed left-6 bottom-6 z-50 w-12 h-12 bg-gradient-to-br from-[#8b4513] to-[#d4a574] rounded-full shadow-2xl flex items-center justify-center text-white hover:scale-110 transition-transform duration-300 animate-bounce"
-        >
-          <FaChevronUp className="text-xl" />
-        </button>
-      )}
-
+     
       {/* أنماط CSS */}
       <style jsx global>{`
         @keyframes float {
