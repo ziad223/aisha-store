@@ -28,8 +28,8 @@ const BoxOfferBanner = () => {
   }
 
   return (
-    <section className="py-12 mr-5 flex items-center justify-center mx-auto " dir="rtl">
-      <div className="mx-auto">
+    <section className="py-12 " dir="rtl">
+      <div className="max-w-6xl mx-auto">
         {/* البانر الرئيسي */}
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2C3E50] via-[#4A235A] to-[#1B4F72] shadow-2xl hover:shadow-3xl transition-shadow duration-500">
           
