@@ -176,7 +176,7 @@ const CupcakesSection = () => {
       id: 10,
       name: "قطعة جاتوه special ",
       description: "قطعة جاتوه special بالكراميل والمكسرات ",
-      price: 20,
+      price: 60,
       originalPrice: 58,
       discount: 17,
       category: "فواكه",
@@ -240,11 +240,7 @@ const CupcakesSection = () => {
             <span className="text-2xl font-bold text-[#8b4513]">
               {cupcake.price} ج.م
             </span>
-            {cupcake.originalPrice > cupcake.price && (
-              <span className="text-gray-400 line-through text-sm">
-                {cupcake.originalPrice} ج.م
-              </span>
-            )}
+          
           </div>
           <a
             href={`https://wa.me/201271716206?text=أريد طلب ${cupcake.name} - السعر: ${cupcake.price} ج.م`}

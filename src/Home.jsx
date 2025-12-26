@@ -13,11 +13,14 @@ const Home = () => {
         <Header/>
         <Container>
             <CakesSection/>
+        </Container>
             <CupcakesSection/>
             <SpecialOfferBanner/>
             <BoxOfferBanner/>
+        <Container>
             <MenuSection/>
         </Container>
+
     </div>
   )
 }

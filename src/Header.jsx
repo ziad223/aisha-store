@@ -156,7 +156,7 @@ const Header = () => {
                     </button>
                     
                     {/* أيقونات زخرفية */}
-                    <div className="flex gap-6 mt-12 animate-fade-up animation-delay-800">
+                    <div className="grid grid-cols-2 md:grid-cols-3  gap-6 mt-12 animate-fade-up animation-delay-800">
                       <div className="flex items-center gap-2">
                         <div className="w-10 h-10 rounded-full bg-[#d4a574]/20 flex items-center justify-center">
                           <span className="text-2xl">🍰</span>

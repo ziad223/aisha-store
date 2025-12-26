@@ -53,12 +53,12 @@ const SpecialOfferBanner = () => {
   }, [])
 
   const handleOrder = () => {
-    window.open(`https://wa.me/201271716206?text=${encodeURIComponent('أريد حجز بوكس العرض الخاص بـ 200 جنيه')}`, '_blank')
+    window.open(`https://wa.me/201271716206?text=${encodeURIComponent('أريد حجز بوكس العرض الخاص بـ 300 جنيه')}`, '_blank')
   }
 
   return (
-    <section className="py-12 px-4" dir="rtl">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-12 mr-5 flex items-center justify-center mx-auto " dir="rtl">
+      <div className=" mx-auto">
         {/* البانر الرئيسي */}
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#8b0000] via-[#b22222] to-[#ff4500] shadow-2xl hover:shadow-3xl transition-shadow duration-500">
           
@@ -165,7 +165,7 @@ const SpecialOfferBanner = () => {
               {/* العرض */}
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border-2 border-yellow-400/30">
                 <div className="text-center mb-6">
-                  <div className="md:inline-flex flex-col items-center gap-2 bg-gradient-to-r from-yellow-300 to-orange-400 text-[#8b0000] px-6 py-2 rounded-full font-bold text-xl">
+                  <div className="md:inline-flex flex-col w-full items-center gap-2 bg-gradient-to-r from-yellow-300 to-orange-400 text-[#8b0000] px-6 py-2 rounded-full font-bold text-xl">
                     <MdLocalOffer className="text-2xl" />
                     خدي بوكس كامل بـ <span className="md:text-3xl text-xl mx-2">300</span> ج بس 😍
                   </div>

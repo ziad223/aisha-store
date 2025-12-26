@@ -95,15 +95,15 @@ const Navbar = () => {
                 </li>
               </ul>
             </div> */}
-
+    <a href="https://www.facebook.com/share/17Y791GwsT/" target="_blank" className="w-8 h-8 rounded-full bg-gradient-to-br from-[#1877F2] to-[#0D5DB8] flex items-center justify-center text-white hover:scale-110 transition-transform">
+                  <FaFacebookF size={16} />
+                </a>
             {/* الأزرار على الشمال */}
             <div className="hidden md:flex items-center gap-4">
               {/* أيقونات التواصل الاجتماعي */}
               <div className="flex items-center gap-2 mr-4">
                
-                <a href="https://www.facebook.com/share/17Y791GwsT/" target="_blank" className="w-8 h-8 rounded-full bg-gradient-to-br from-[#1877F2] to-[#0D5DB8] flex items-center justify-center text-white hover:scale-110 transition-transform">
-                  <FaFacebookF size={16} />
-                </a>
+            
               </div>
               
               {/* زر الواتساب */}
@@ -145,12 +145,7 @@ const Navbar = () => {
               
               {/* أزرار التواصل في الموبايل */}
               <div className="mt-6 pt-6 border-t border-[#ffd7c2]">
-                <div className="flex justify-center gap-4 mb-4">
-                  
-                  <a href="https://www.facebook.com/share/17Y791GwsT/" target="_blank" className="w-10 h-10 rounded-full bg-gradient-to-br from-[#1877F2] to-[#0D5DB8] flex items-center justify-center text-white">
-                   <FaFacebookF size={18} />
-                  </a>
-                </div>
+               
                 
                 <div className="flex flex-col gap-3">
                   <button 
